@@ -1,31 +1,38 @@
 # BrightReply
 
-BrightReply is a JTS Labs project for personalised, on-brand responses to
-customer reviews. This public repository contains the static landing page,
-not a production AI backend.
+BrightReply is a parked JTS Labs product: AI drafts on-brand replies to
+customer reviews and flags high-risk ones. This public repository is a static
+holding page, not a live service and not the production app. There is no
+signup, billing, or review-platform connection here.
+
+The full SaaS is not currently available. Copy on this page is not customer
+proof, a certification, or a published price list.
 
 ## Visit
 
-- [BrightReply website](https://bright-reply-six.vercel.app)
+- [Holding page on Vercel](https://bright-reply-six.vercel.app)
 - [GitHub Pages mirror](https://hkjeff02.github.io/BrightReply/)
+
+Production updates are published from `main`. A pull request does not replace
+the live page until it is merged.
 
 ## Run locally
 
-The page is a single `index.html` file with inline styles and JavaScript. It
-requires no package installation or build step.
+The page is a single `index.html` file with inline styles. It requires no
+package installation or build step.
 
 ```sh
 python3 -m http.server 8000
 ```
 
-Open `http://localhost:8000`. Do not put API keys, customer review exports or
+Open `http://localhost:8000`. Do not put API keys, customer review exports, or
 other private data in this public repository or its browser-side code.
 
 ## Feedback and contact
 
 Use this repository's [issue tracker](https://github.com/HKJeff02/BrightReply/issues)
-for non-sensitive feedback. Do not include credentials or customer data in
-public issues.
+for non-sensitive feedback. The holding page does not collect email addresses.
+Do not include credentials or customer data in public issues.
 
 ## Licence
 
